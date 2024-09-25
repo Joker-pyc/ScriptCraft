@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScriptCraft - Custom Handwriting Creator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+<body>
+    <div class="parallax-bg"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="scriptcraft-logo.svg" alt="ScriptCraft Logo" width="40" height="40">
+                ScriptCraft
+            </div>
+            
+            <ul>
+                <li><a href="#create">Create 🖋️</a></li>
+                <li><a href="#convert">Convert 🔄</a></li>
+                <li><a href="#manage">Manage Styles 📚</a></li>
+                <li><a href="#train">Train Model 🧠</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="create">
+            <h2>Create Your Handwriting ✨</h2>
+            <div class="input-group">
+                <input type="text" id="handwriting-name" placeholder="Enter handwriting name">
+                <input type="text" id="current-char" maxlength="1" placeholder="Current character">
+            </div>
+            <div class="canvas-container">
+                <canvas id="handwriting-canvas" width="800" height="400"></canvas>
+                <div class="tools">
+                    <button id="pen-tool" class="active"><i class="fas fa-pen"></i> Pen</button>
+                    <button id="eraser-tool"><i class="fas fa-eraser"></i> Eraser</button>
+                    <input type="color" id="color-picker" value="#000000">
+                    <input type="range" id="stroke-width" min="1" max="20" value="2">
+                </div>
+            </div>
+            <div class="button-group">
+                <button id="clear-canvas"><i class="fas fa-trash-alt"></i> Clear Canvas</button>
+                <button id="save-style"><i class="fas fa-save"></i> Save Style</button>
+            </div>
+        </section>
+
+        <section id="convert">
+            <h2>Convert Text to Handwriting 🖊️</h2>
+            <textarea id="input-text" rows="4" placeholder="Enter your text here..."></textarea>
+            <div class="style-selector">
+                <label for="handwriting-style">Choose style:</label>
+                <select id="handwriting-style"></select>
+            </div>
+            <button id="convert-btn"><i class="fas fa-magic"></i> Convert</button>
+            <div class="output-container">
+                <canvas id="output-canvas" width="800" height="400"></canvas>
+            </div>
+            <button id="download-btn"><i class="fas fa-download"></i> Download as Image</button>
+        </section>
+
+        <section id="manage">
+            <h2>Manage Your Styles 📝</h2>
+            <div id="style-list"></div>
+        </section>
+
+        <section id="train">
+            <h2>Train Your Model 🧠</h2>
+            <div class="button-group">
+                <button id="train-model"><i class="fas fa-brain"></i> Train Model</button>
+                <button id="export-model"><i class="fas fa-file-export"></i> Export Model</button>
+            </div>
+            <div class="training-section">
+                <div id="training-progress">
+                    <div id="progress-bar"></div>
+                </div>
+                <p id="training-status">Not started</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 ScriptCraft. All rights reserved. 🖋️</p>
+    </footer>
+
+    <script src="trainer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
