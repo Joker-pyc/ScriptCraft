@@ -39,24 +39,15 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://example.com/scriptcraft-interface.png" alt="ScriptCraft Interface" width="45%">
-  <img src="https://example.com/handwriting-analysis.gif" alt="Handwriting Analysis" width="45%">
+  <img src="image.png" alt="ScriptCraft Interface" width="90%">
+
 </div>
-
-## 🏁 Getting Started
-
-1. Visit [ScriptCraft.com](https://www.scriptcraft.com) and create an account
-2. Follow the on-screen instructions to provide handwriting samples
-3. Wait for our AI to generate your personalized font
-4. Download your font and start using it in your favorite applications!
 
 ## 💻 Technologies Used
 
 - Frontend: React.js, TypeScript, Sass
 - Backend: Node.js, Express.js, MongoDB
-- AI/ML: TensorFlow, PyTorch
-- Cloud: AWS (EC2, S3, Lambda)
-- Mobile: React Native
+- AI/ML: TensorFlow
 
 ## 🤝 Contributing
 
@@ -73,8 +64,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 ## 📞 Contact
 
 - Email: santoshmaurya06062003@gmail.com
-- Twitter: [@ScriptCraftApp](https://twitter.com/ScriptCraftApp)
-- Blog: [ScriptCraft Blog](https://blog.scriptcraft.com)
 
 ## 📄 License
 
