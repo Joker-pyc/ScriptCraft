@@ -4,7 +4,7 @@
   <p><em>Bringing the art of handwriting into the digital age</em></p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4.svg)](https://github.com/yourusername/scriptcraft)
+  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4.svg)](https://github.com/Joker-pyc/ScriptCraft)
   [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
   [Demo](#demo) • [Features](#-features) • [How It Works](#-how-it-works) • [Getting Started](#-getting-started) • [Contributing](#-contributing)
@@ -45,8 +45,8 @@
 
 ## 💻 Technologies Used
 
-- Frontend: React.js, TypeScript, Sass
-- Backend: Node.js, Express.js, MongoDB
+- Frontend: Html, Css, JavaScript
+- Backend: Node.js
 - AI/ML: TensorFlow
 
 ## 🤝 Contributing
