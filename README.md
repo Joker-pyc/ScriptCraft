@@ -80,7 +80,7 @@ ScriptCraft is released under the MIT License. See the [LICENSE](LICENSE) file f
 <div align="center">
   <h3>Bring your handwriting to life in the digital world with ScriptCraft! ✍️🖥️</h3>
   
-  <a href="https://www.scriptcraft.com">
+  <a href="https://joker-pyc.github.io/ScriptCraft/">
     <img src="https://img.shields.io/badge/Try%20ScriptCraft-Now-blue?style=for-the-badge" alt="Try ScriptCraft Now">
   </a>
 </div>
