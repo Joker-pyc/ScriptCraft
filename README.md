@@ -1,8 +1,15 @@
 # ScriptCraft 📝✨
 
-![ScriptCraft Logo](image.png)
+![ScriptCraft Logo](scriptcraft-logo.svg)
 
 ScriptCraft is an innovative web-based application that brings the art of handwriting into the digital age. This powerful tool allows users to create, customize, and utilize their own unique handwriting styles in a virtual environment. By leveraging cutting-edge machine learning and artificial intelligence technologies, ScriptCraft offers an intuitive interface for users to craft their personal handwriting font.
+
+---
+
+## Demo
+![ScriptCraft Logo](image.png)
+
+---
 
 ## Features 🚀
 
